@@ -1,0 +1,9 @@
+- name: Upgrade de todos os pacotes do so
+  yum: 
+    name: '*'
+    state: latest
+
+- name:
+  yum:
+    name: git
+    state: latest
